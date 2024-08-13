@@ -43,6 +43,7 @@ def plot2():
     ))
     z = np.polyfit(global_avg_temp['Year'], global_avg_temp['AvgTemperature'], 1)
     p = np.poly1d(z)
+    print(p)
     p2.add_trace(go.Scatter(x=global_avg_temp['Year'], y=p(global_avg_temp['Year']), mode='lines', name='Trend Line'))
     p2.update_layout(width= 500, title = 'Global Temperature Over The Years', xaxis_title = 'Year', yaxis_title = 'Avg Temp (°F)')
 
@@ -100,7 +101,7 @@ if page == "Temperatures Overview":
         st.markdown("Alysson Faria Santos\n\nPDBD008",unsafe_allow_html=True)
     
     # Colunas para exibição dos gráficos
-    col = st.columns((8, 4.5), gap='small')
+    col = st.columns((9, 4.5), gap='small')
 
     with col[0]:
         choropleth = make_choropleth(selected_year)
@@ -128,10 +129,16 @@ if page == "Temperatures Overview":
                              max_value=max(df_selected_year.AvgTemperature),
                          )}
                      )
+        
+        st.markdown("""
+        <div style="margin-top: 130px; margin-bottom: 40px">
+            \n- Total Variation: +1.7 °F\n\n- Avg ΔTemp/Year: +0.08 °F 
+        </div>
+        """, unsafe_allow_html=True)
         with st.expander('About', expanded=True):
             st.write('''
                 - Data from [Kaggle](https://www.kaggle.com/datasets/sudalairajkumar/daily-temperature-of-major-cities).
-                ''')
+                - Data is representative. It does not contain all cities from all countries in the world.''')
         
         
         
@@ -168,5 +175,5 @@ elif page == "Country Analysis":
         st.metric(label = 'Average Year Temperature',value = f'{average.round(1)}°F', delta = f'{difference.round(1)}°F', delta_color='inverse')
         st.metric(label='Max Average Temperature in a day', value=f'{max_temp}°F')
         st.metric(label='Min Average Temperature in a day', value=f'{min_temp}°F')
-        st.metric(label = 'Year Amplitude',value = f'{amplitude}°F')
+        st.metric(label = 'Amplitude',value = f'{amplitude}°F')
 

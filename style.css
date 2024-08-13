@@ -7,6 +7,10 @@
     margin-bottom: -7rem;
 }
 
+.css-1d391kg {  /* Classe do contêiner da barra lateral */
+    width: 200; /* Largura desejada */
+}
+
 [data-testid="stMarkDown"]{
     padding-top: 40px
 }
