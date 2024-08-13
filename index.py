@@ -128,6 +128,10 @@ if page == "Temperatures Overview":
                              max_value=max(df_selected_year.AvgTemperature),
                          )}
                      )
+        with st.expander('About', expanded=True):
+            st.write('''
+                - Data from [Kaggle](https://www.kaggle.com/datasets/sudalairajkumar/daily-temperature-of-major-cities).
+                ''')
         
         
         
