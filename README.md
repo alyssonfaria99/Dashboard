@@ -23,4 +23,7 @@
       <li><a href= 'https://numpy.org/'>Numpy</a></li>
     </ul>
   </div>
+  <div>
+    <p>The database used was downloaded from <a href= 'https://www.kaggle.com/datasets/sudalairajkumar/daily-temperature-of-major-cities'>Kaggle</a></p>
+  </div>
 </body>
