@@ -25,6 +25,6 @@
   </div>
   <div>
     <p>The database used was downloaded from <a href= 'https://www.kaggle.com/datasets/sudalairajkumar/daily-temperature-of-major-cities'>Kaggle</a></p>
-    <p>The dashboard is deployed by Streamlit.To access it, <a href='https://temperaturedashboard.streamlit.app/'>click here</a>.</p>
+    <p>The dashboard is deployed by Streamlit Sharing. To access it, <a href='https://temperaturedashboard.streamlit.app/'>click here</a>.</p>
   </div>
 </body>
