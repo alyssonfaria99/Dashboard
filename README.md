@@ -13,3 +13,12 @@
   <img src='prints/print_2.png'>
   <p>This section shows detailed data about the temperature in a specific country during a year. The dropdown menu on the left allows the user to choose a region, a country within the selected region and the year the user wants to see the data about.</p>
 </ul>
+<div>
+  This dashboard was developed using Python as its main language. The frameworks and libraries used were:
+  <ul>
+    <li><a href= 'https://streamlit.io/' target="_blank">Streamlit</a></li>
+    <li><a href= 'https://pandas.pydata.org/'></a>Pandas</li>
+    <li><a href= 'https://plotly.com/'></a>Plotly</li>
+    <li><a href= 'https://numpy.org/'></a>Numpy</li>
+  </ul>
+</div>
