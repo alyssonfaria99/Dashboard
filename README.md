@@ -17,8 +17,8 @@
   This dashboard was developed using Python as its main language. The frameworks and libraries used were:
   <ul>
     <li><a href= 'https://streamlit.io/' target="_blank">Streamlit</a></li>
-    <li><a href= 'https://pandas.pydata.org/'></a>Pandas</li>
-    <li><a href= 'https://plotly.com/'></a>Plotly</li>
-    <li><a href= 'https://numpy.org/'></a>Numpy</li>
+    <li><a href= 'https://pandas.pydata.org/'>Pandas</a></li>
+    <li><a href= 'https://plotly.com/'>Plotly</a></li>
+    <li><a href= 'https://numpy.org/'>Numpy</a></li>
   </ul>
 </div>
