@@ -4,7 +4,7 @@
 <p>The Dashboard contain 2 main pages:</p>
 <ul>
   <li>Temperatures Overview:</li>
-  ![image](https://github.com/user-attachments/assets/63b19fdd-e2d8-4126-a53f-028a49b09181)
+  ![image](Prints/print_1.png)
 
   
 </ul>
