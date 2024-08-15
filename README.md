@@ -4,7 +4,8 @@
 <p>The Dashboard contain 2 main pages:</p>
 <ul>
   <li>Temperatures Overview:</li>
-  ![image](Prints/print_1.png)
-
+  <img src = 'prints/print_1.png' style="width: 50%;">
+  <img src = 'prints/print_3.png style="display: flex; width:50%">
+  <p>This page contains data about the global temperature over the years, its total and average variation and a list of the top 10 hottest country in the selected year. </p>
   
 </ul>
